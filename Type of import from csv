@@ -12,7 +12,7 @@ run;
 
 * К примеру здесь анализ данных будет проходить на основе 500 первых строк:
 
-proc import out=temp datafile='\\rccf\Workgroups\Collection\Collection Development\Petrova\trane_files\Avail_time.csv'
+proc import out=temp datafile='\\server\Workgroups\Temp\Tmp_import.csv'
      dbms=csv replace;
      delimiter=';';
 guessingrows=500;
